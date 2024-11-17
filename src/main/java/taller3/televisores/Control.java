@@ -23,23 +23,25 @@ public class Control {
         }
     }
     public void canalUp(){
-        if (tv != null && tv.getEstado()){
+        if (tv != null && tv.getEstado()) {
             tv.canalUp();
         }
     }
+    
     public void canalDown(){
-        if (tv != null && tv.getEstado()){
+        if (tv != null && tv.getEstado()) {
             tv.canalDown();
         }
     }
-
+    
     public void volumenUp(){
-        if (tv != null && tv.getEstado()){
+        if (tv != null && tv.getEstado()) {
             tv.volumenUp();
         }
     }
+    
     public void volumenDown(){
-        if (tv != null && tv.getEstado()){
+        if (tv != null && tv.getEstado()) {
             tv.volumenDown();
         }
     }
