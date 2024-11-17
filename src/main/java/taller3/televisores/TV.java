@@ -77,17 +77,17 @@ public class TV {
         estado = false;
     }
 
-    public void canalUp(){
-        if ((estado == true) && canal<120){
+    public void canalUp() {
+        if (estado && canal < 120) { // Validar límites y estado
             canal++;
         }
     }
-
-    public void canalDown(){
-        if ((estado == true) && canal>1){
+    
+    public void canalDown() {
+        if (estado && canal > 1) { // Validar límites y estado
             canal--;
         }
-    }
+    }    
 
     public void volumenUp(){
         if ((estado == true) && volumen<7){
