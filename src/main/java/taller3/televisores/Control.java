@@ -23,12 +23,12 @@ public class Control {
         }
     }
     public void canalUp(){
-        if (tv != null){
+        if (tv != null && tv.getEstado()){
             tv.canalUp();
         }
     }
     public void canalDown(){
-        if (tv != null){
+        if (tv != null && tv.getEstado()){
             tv.canalDown();
         }
     }
