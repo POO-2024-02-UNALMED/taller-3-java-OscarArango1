@@ -19,9 +19,9 @@ public class TV {
     }
 
     public void setCanal(int canal) {
-        if (canal >= 1 && canal <= 120) { 
+        if (estado && canal >= 1 && canal <= 120) { // Validar que esté encendido y dentro del rango
             this.canal = canal;
-        }
+        }    
     }
     
     public Marca getMarca(){
