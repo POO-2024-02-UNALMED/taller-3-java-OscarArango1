@@ -34,12 +34,12 @@ public class Control {
     }
 
     public void volumenUp(){
-        if (tv != null){
+        if (tv != null && tv.getEstado()){
             tv.volumenUp();
         }
     }
     public void volumenDown(){
-        if (tv != null){
+        if (tv != null && tv.getEstado()){
             tv.volumenDown();
         }
     }
